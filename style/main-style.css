@@ -1,3 +1,9 @@
+/* Global */
+
+* {
+  font-family: Arial, sans-serif;
+}
+
 /* Header and nav */
 
 h1 {
@@ -7,8 +13,24 @@ h1 {
 }
 
 /* Main content */
+
 p {
   font-family: Arial, sans-serif;
+}
+
+/* Forms */
+
+form {
+  margin: 10px;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  vertical-align: top;
 }
 
 /* Footer */

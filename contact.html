@@ -22,5 +22,27 @@
 
     <!-- This will be a basic contact page -->
 
+    <form>
+      <!-- This form is just a dummy for now; it needs an action! -->
+      <label for="name">Name:</label>
+      <input type="text" name="name">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" name="email">
+      <br>
+      <fieldset>
+        <label for="role">I am a:</label>
+        <br>
+        <input type="radio" name="role" value="student">Student</input>
+        <input type="radio" name="role" value="parent">Parent</input>
+        <input type="radio" name="role" value="counselor">Counselor</input>
+      </fieldset>
+      <br>
+      <label for="message">Message:</label>
+      <textarea name="message"></textarea>
+      <br>
+      <input type="button" value="Send Message">
+    </form>
+
   </body>
 </html>
